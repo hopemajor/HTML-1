@@ -1,0 +1,89 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+main {
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("jpeg.com.jpeg");
+  background-size: cover;
+  color: white;
+  padding: 0px 150px;
+}
+
+header {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.body h1 {
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.body p {
+  margin: 10px 0px;
+}
+
+.body button {
+  width: 150px;
+  height: 40px;
+  background-color: orangered;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.about {
+  height: 60vh;
+  background-color: orange;
+}
+
+.features {
+  height: 30vh;
+  border-bottom: 1px solid white;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.cat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+}
+
+.cat div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  color: orangered;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.cat b {
+  margin: 10px 0px;
+}
+
+.footer {
+  display: flex;
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

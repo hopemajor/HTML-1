@@ -1,0 +1,25 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+
+main div{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    flex-direction: inherit;
+}
+.p{
+    font-size: 100px;
+    font-family: sans-serif;
+    width: 100px;
+}
+
+.main1{
+width: 50vh;
+height: 25vh;
+flex-direction: column;
+content justify-content: display: ;
+}
